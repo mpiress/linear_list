@@ -1,9 +1,9 @@
 #include "lista.h"
 
-int main()
-{
+int main(){
+
 	Lista l;
-	Item<int> aux;
+	Item aux;
 
 	FLVazia(&l);
 
@@ -16,7 +16,7 @@ int main()
 
 	LImprime(&l);
 
-	aux.val = 40;
+	aux.val = 20;
 	LRemove(&l, aux);
 
 	LImprime(&l);
