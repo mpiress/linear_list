@@ -24,6 +24,6 @@ Primeiramente, vamos pensar o que essa estrutura (i.e., modelo estático baseado
 </p>
 
 
-<img align="center" height="50px" width="200px" src="memoria.png"/> 
+<img align="center" height="50px" width="200px" src="imgs/memoria.png"/> 
 
 
