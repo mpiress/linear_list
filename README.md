@@ -24,6 +24,6 @@ Primeiramente, vamos pensar o que essa estrutura (i.e., modelo estático baseado
 </p>
 
 
-<img align="center" height="50px" width="200px" src="https://ava.cefetmg.br/pluginfile.php/114451/mod_book/chapter/528/Captura%20de%20Tela%202020-08-12%20a%CC%80s%2014.52.39.png"/> 
+<img align="center" height="50px" width="200px" src="memoria.png"/> 
 
 
