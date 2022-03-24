@@ -24,7 +24,7 @@ Primeiramente, vamos pensar o que essa estrutura (i.e., modelo estático baseado
 </p>
 
 
-<img align="center" height="130px" width="800px" src="imgs/memoria.png"/> 
+<img align="center" height="200px" width="800px" src="imgs/memoria.png"/> 
 
 <p align="justify">
 Quando entramos em nosso programa com a instrução int vetor[10], o que o computador faz é criar 10 posições sequenciais na memória RAM e fazer nossa variável vetor apontar para a primeira delas. Assim, se quisermos imprimir a terceira posição desse vetor podemos realizar essa operação de duas formas:
