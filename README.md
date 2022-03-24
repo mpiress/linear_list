@@ -30,7 +30,20 @@ Primeiramente, vamos pensar o que essa estrutura (i.e., modelo estático baseado
 Quando entramos em nosso programa com a instrução int vetor[10], o que o computador faz é criar 10 posições sequenciais na memória RAM e fazer nossa variável vetor apontar para a primeira delas. Assim, se quisermos imprimir a terceira posição desse vetor podemos realizar essa operação de duas formas:
 </p>
 
+
 1. printf("Valor: %d", vetor[2]) : Modelo tradicional de execução, no qual a posição é utilizada; 
 
 2. printf("Valor: %d", *(vetor+2)) : Modelo onde utilizamos a manipulação do ponteiro ao contrário da posição.
 
+
+<p align="justify">
+O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nato da linguagem e as posições que ele ocupa na memória são sequenciais, uma vez que a soma de seu endereço mais duas posições nos deixa apontando para o terceiro elemento do conjunto em RAM. Porque isso funciona?. Como temos um vetor de inteiros, ele tem 4 bytes por posição (espaço ocupado por um int na RAM), quando somamos 2, isso não quer dizer apenas +2. Pelo contrário, ele está somando mais duas unidades de inteiros, ou seja, +8 bytes no endereço, o que o deixa exatamente na posição sequencial correta em RAM.
+</p>
+
+<p align="justify">
+Porque foi apresentado isso? Para demonstrar que vetores são sequenciais e que há necessidade de espaço sequencial em RAM para que sejam alocados. Essa é a limitação das estruturas chamadas de estática, como as tratadas nesse módulo. 
+</p>
+
+<p align="justify">
+Sem mais delongas, vamos ao que nos interessa ... Vamos imaginar uma estrutura do tipo lista estática. O que precisamos então criar é simplesmente um vetor de N posições. Feita a criação, precisamos modelar um método / função para inserir dados nesse vetor, uma função para pesquisar nesse vetor, uma função para remover nesse vetor, e assim por diante. A nossa lista deve parecer com a foto abaixo:
+</p>
