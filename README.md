@@ -42,10 +42,10 @@ O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nat
 
 >*Porque a manipulação do ponteiro funciona como índice?* 
 > - Como temos um vetor de inteiros, ele tem 4 bytes por posição (espaço ocupado por um int na RAM), quando somamos 2, isso não quer dizer apenas +2. Pelo contrário, ele está somando mais duas unidades de inteiros, ou seja, +8 bytes no endereço, o que o deixa exatamente na posição sequencial correta em RAM.
+>
+>*Porque foi apresentado isso?* 
+>Para demonstrar que vetores são sequenciais e que há necessidade de espaço sequencial em RAM para que sejam alocados. Essa é a limitação das estruturas chamadas de estática, como as tratadas nesse módulo. 
 
-<p align="justify">
-Porque foi apresentado isso? Para demonstrar que vetores são sequenciais e que há necessidade de espaço sequencial em RAM para que sejam alocados. Essa é a limitação das estruturas chamadas de estática, como as tratadas nesse módulo. 
-</p>
 
 <p align="justify">
 Sem mais delongas, vamos ao que nos interessa ... Vamos imaginar uma estrutura do tipo lista estática. O que precisamos então criar é simplesmente um vetor de N posições. Feita a criação, precisamos modelar um método / função para inserir dados nesse vetor, uma função para pesquisar nesse vetor, uma função para remover nesse vetor, e assim por diante. A nossa lista deve parecer com a foto abaixo:
