@@ -51,7 +51,9 @@ O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nat
 Sem mais delongas, vamos ao que nos interessa. Vamos imaginar uma estrutura do tipo lista estática. O que precisamos então criar é simplesmente um vetor de **N** posições. Feita a criação, precisamos modelar um método / função para inserir dados nesse vetor, uma função para pesquisar, uma função para remover, e assim por diante. A nossa lista deve parecer com a figura abaixo:
 </p>
 
-<img align="center" src="imgs/lista.png"/> 
+<div style="display: inline-block; align: center">
+<img src="imgs/lista.png"/> 
+</div>
 
 <p align="justify">
 Na Figura que representa nossa lista, note que há uma variável chamada <b>primeiro</b> e uma outra chamada <b>último</b>. A variável primeiro marca o <b>início da lista</b>, enquanto o último denota <b>o final da lista</b>. Nesse modelo de lista apenas a variável último é trabalhada, ou seja, se modifica com o tempo a medida que vamos inserindo e removendo dados da lista. No início da execução, quando a <b>lista está totalmente vazia</b>, temos que <b>primeiro == último</b>, logo, estão na posição 0 do vetor. 
