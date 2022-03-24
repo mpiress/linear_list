@@ -26,4 +26,11 @@ Primeiramente, vamos pensar o que essa estrutura (i.e., modelo estático baseado
 
 <img align="center" src="imgs/memoria.png"/> 
 
+<p align="justify">
+Quando entramos em nosso programa com a instrução int vetor[10], o que o computador faz é criar 10 posições sequenciais na memória RAM e fazer nossa variável vetor apontar para a primeira delas. Assim, se quisermos imprimir a terceira posição desse vetor podemos realizar essa operação de duas formas:
+</p>
+
+1. printf("Valor: %d", vetor[2]) : Modelo tradicional de execução, no qual a posição é utilizada; 
+
+2. printf("Valor: %d", *(vetor+2)) : Modelo onde utilizamos a manipulação do ponteiro ao contrário da posição.
 
