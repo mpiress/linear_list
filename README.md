@@ -51,7 +51,7 @@ O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nat
 Sem mais delongas, vamos ao que nos interessa. Vamos imaginar uma estrutura do tipo lista estática. O que precisamos então criar é simplesmente um vetor de **N** posições. Feita a criação, precisamos modelar um método / função para inserir dados nesse vetor, uma função para pesquisar, uma função para remover, e assim por diante. A nossa lista deve parecer com a figura abaixo:
 </p>
 
-<div style="display:block; text-align:center; width:100%; margin:auto;">
+<div style="display:block; text-align:center; width:120%; margin:auto;">
 <img src="imgs/lista.png"/> 
 </div>
 
