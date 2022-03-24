@@ -54,7 +54,7 @@ Sem mais delongas, vamos ao que nos interessa. Vamos imaginar uma estrutura do t
 <img align="center" src="imgs/lista.png"/> 
 
 <p align="justify">
-Note que na Figura que representa nossa lista há uma variável chamada <b>primeiro</b> e uma outra chamada <b>último</b>. A variável primeiro marca o <b>início da lista</b>, enquanto o último denota <b>o final da lista</b>. Nesse modelo de lista apenas a variável último é trabalhada, ou seja, se modifica com o tempo a medida que vamos inserindo e removendo dados da lista. No início da execução, quando a <b>lista está totalmente vazia</b>, temos que <b>primeiro == último</b>, logo, estão na posição 0 do vetor. 
+Na Figura que representa nossa lista, note que há uma variável chamada <b>primeiro</b> e uma outra chamada <b>último</b>. A variável primeiro marca o <b>início da lista</b>, enquanto o último denota <b>o final da lista</b>. Nesse modelo de lista apenas a variável último é trabalhada, ou seja, se modifica com o tempo a medida que vamos inserindo e removendo dados da lista. No início da execução, quando a <b>lista está totalmente vazia</b>, temos que <b>primeiro == último</b>, logo, estão na posição 0 do vetor. 
 </p>
 
 >Vamos as regras básicas:
