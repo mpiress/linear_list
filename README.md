@@ -1,6 +1,4 @@
-<h1 align="justify">
-Listas Lineares: Implementação em C
-</h1>
+# Listas Lineares: Implementação em C
 
 <div style="display: inline-block;">
 <img align="center" height="20px" width="90px" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/> 
@@ -24,7 +22,10 @@ Primeiramente, vamos pensar o que essa estrutura (i.e., modelo estático baseado
 </p>
 
 
-<img align="center" height="200px" width="800px" src="imgs/memoria.png"/> 
+<p align="center">
+<img src="imgs/memoria.png"/> 
+</p>
+
 
 <p align="justify">
 Quando entramos em nosso programa com a instrução int vetor[10], o que o computador faz é criar 10 posições sequenciais na memória RAM e fazer nossa variável vetor apontar para a primeira delas. Assim, se quisermos imprimir a terceira posição desse vetor podemos realizar essa operação de duas formas:
@@ -51,7 +52,9 @@ O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nat
 Sem mais delongas, vamos ao que nos interessa. Vamos imaginar uma estrutura do tipo lista estática. O que precisamos então criar é simplesmente um vetor de **N** posições. Feita a criação, precisamos modelar um método / função para inserir dados nesse vetor, uma função para pesquisar, uma função para remover, e assim por diante. A nossa lista deve parecer com a figura abaixo:
 </p>
 
-<img align="center" height="130px" width="800px" src="imgs/lista.png"/> 
+<p align="center">
+<img src="imgs/lista.png"/> 
+</p>
 
 <p align="justify">
 Na Figura que representa nossa lista, note que há uma variável chamada <b>primeiro</b> e uma outra chamada <b>último</b>. A variável primeiro marca o <b>início da lista</b>, enquanto o último denota <b>o final da lista</b>. Nesse modelo de lista apenas a variável último é trabalhada, ou seja, se modifica com o tempo a medida que vamos inserindo e removendo dados da lista. No início da execução, quando a <b>lista está totalmente vazia</b>, temos que <b>primeiro == último</b>, logo, estão na posição 0 do vetor. 
