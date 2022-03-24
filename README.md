@@ -37,7 +37,12 @@ Quando entramos em nosso programa com a instrução int vetor[10], o que o compu
 
 
 <p align="justify">
-O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nato da linguagem e as posições que ele ocupa na memória são sequenciais, uma vez que a soma de seu endereço mais duas posições nos deixa apontando para o terceiro elemento do conjunto em RAM. Porque isso funciona?. Como temos um vetor de inteiros, ele tem 4 bytes por posição (espaço ocupado por um int na RAM), quando somamos 2, isso não quer dizer apenas +2. Pelo contrário, ele está somando mais duas unidades de inteiros, ou seja, +8 bytes no endereço, o que o deixa exatamente na posição sequencial correta em RAM.
+O que queremos mostrar com isso é simples: Um vetor em C/C++ é um ponteiro nato da linguagem e as posições que ele ocupa na memória são sequenciais, uma vez que a soma de seu endereço mais duas posições nos deixa apontando para o terceiro elemento do conjunto em RAM.
+</p>
+
+<p align="justify">
+>*Porque a manipulação do ponteiro funciona como índice?* 
+> - Como temos um vetor de inteiros, ele tem 4 bytes por posição (espaço ocupado por um int na RAM), quando somamos 2, isso não quer dizer apenas +2. Pelo contrário, ele está somando mais duas unidades de inteiros, ou seja, +8 bytes no endereço, o que o deixa exatamente na posição sequencial correta em RAM.
 </p>
 
 <p align="justify">
