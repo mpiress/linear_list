@@ -63,3 +63,14 @@ Na Figura que representa nossa lista, note que há uma variável chamada <b>prim
 >2. Quando um novo elemento é inserido, o último aponta para o próximo espaço vazio da lista;
 >3. Quando último maior que o tamanho do vetor (i.e., último > tamanho), a lista deve ser considerada cheia;
 >4. Quando um elemento da lista é removido, todos os elementos que estão na sequência devem ser deslocados para frente e o ponteiro último deve ser atualizado, ou seja, ultimo --;
+
+# Compilação e Execução
+
+A lista linear disponibilizada possui um arquivo Makefile que realiza todo o procedimento de compilação e execução. Para tanto, temos as seguintes diretrizes de execução:
+
+
+| Comando  |  Função  |
+| ------------------- | ------------------- |
+|  `make clean` |  Apaga a última compilação realizada e salva na pasta build |
+|  `make`  |  Executa a compilação do programa utilizando o gcc nativo |
+|  `make run` | Executa o programa após a realização da compilação |
