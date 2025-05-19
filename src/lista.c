@@ -1,6 +1,8 @@
 #include "lista.h"
 
 //Técnica para swap de structs - algumas vezes não é seguro
+//Não é garantido para todos os tipos: alguns campos, como ponteiros, 
+//podem não se comportar como esperado ao trocar bit a bit.
 void SwapStruct(void *a, void *b, size_t size) {
     if (a == b) return;
 
