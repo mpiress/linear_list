@@ -17,11 +17,10 @@ typedef struct Lista{
 	int last;
 }Lista;
 
-
 void FLVazia(Lista *l);
 void LInsert(Lista *l, Item d);
 void LRemove(Lista *l, Item d);
-void Swap(Item *a, Item *b);
 void LImprime(Lista *l);
+void Swap(Item *a, Item *b);
 
 #endif
